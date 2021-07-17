@@ -1,0 +1,13 @@
+./log
+go.sum
+bin
+**/*jar
+**/target
+**/.settings
+**/.idea
+**/.DS_Store
+**/.classpath
+**/*.iml
+.vscode/
+*.lock
+vendor/*
