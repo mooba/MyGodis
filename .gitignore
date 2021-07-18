@@ -1,4 +1,4 @@
-/logs
+./logs
 go.sum
 bin
 **/*jar
