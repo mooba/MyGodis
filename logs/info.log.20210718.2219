@@ -1,2 +1,0 @@
-time="2021-07-18T22:19:40+08:00" level=info msg="[bind: %s, start listening... 0.0.0.0:6399]" file="log/log_line_hook.go:59:getCaller()"
-time="2021-07-18T22:19:58+08:00" level=info msg="received system signal:[2], waiting to stop..." file="log/log_line_hook.go:59:getCaller()"

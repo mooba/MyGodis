@@ -19,7 +19,7 @@ func NewLoggerWithRotate() *logrus.Logger {
 		return log
 	}
 
-	path := "./log/info.log"
+	path := "./logs/info.log"
 	writer, _ = rotatelogs.New(
 		path+".%Y%m%d.%H%M",
 		rotatelogs.WithLinkName(path),               // 生成软链，指向最新日志文件

@@ -21,7 +21,7 @@ func GetTcpConfig() *Config {
 func (config *Config)Init(path string) {
 	if len(path) == 0 {
 		config.MaxConnect = 1000
-		config.Address = "0.0.0.0:6399"
+		config.Address = "127.0.0.1:6399"
 		config.Timeout = 100 * time.Second
 	}
 }
